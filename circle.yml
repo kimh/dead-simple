@@ -1,0 +1,7 @@
+dependencies:
+  override:
+    - exit 0
+
+machine:
+  override:
+    - for i in $(seq 1 100); do echo "dead simple"; sleep 1; done
